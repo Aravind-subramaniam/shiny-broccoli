@@ -1,0 +1,44 @@
+eg: (LHS) GPIO 0 Pin 2 is referred as 0[2] =>(interfaced with) (RHS) SDRAM CHIP Pin 2 is referred as just 2.
+
+0[0] => 2  
+0[1] => 4  
+0[2] => 5  
+0[3] => 7  
+0[4] => 8  
+0[5] => 10  
+0[6] => 11  
+0[7] => 13  
+0[8] => 15  
+0[9] => 16
+0[10] => 17  
+0[11] => 18  
+0[12] => 19  
+0[13] => 20  
+0[14] => 21  
+0[15] => 22  
+0[16] => 23  
+0[17] => 24  
+0[18] => 25  
+0[19] => 26  
+0[20] => 29
+0[21] => 30 
+0[22] => 31 
+0[23] => 32 
+0[24] => 33 
+0[25] => 34  
+0[26] => 35  
+0[27] => 37  
+0[28] => 38  
+0[29] => 39
+0[30] => 42  
+0[31] => 44  
+0[32] => 45  
+0[33] => 47  
+0[34] => 48  
+0[35] => 50  
+1[0] => 51
+1[1] => 53
+and vdd, vddq and common ground connections are made.
+
+GPIO1[2] is connected to RX1 Pin 19 in ATMEL Arduino Due
+GPIO1[3] is connected to TX1 Pin 18 in ATMEL Arduino Due
